@@ -23,11 +23,13 @@ Untuk dapat memprediksi risiko kanker paru-paru, diperlukan data pasien yang kom
 Solusi dilakukan dengan pendekatan sebagai berikut:
 - Membangun 2 model Machine Learning yaitu Naive Bayes dan K-Nearest Neighbors (KNN).
   * 1. Naive Bayes adalah algoritma klasifikasi yang berdasarkan pada teorema Bayes dengan asumsi bahwa  setiap  atribut  yang  ada  dalam  data  adalahindependen  satu  sama  lain. Algoritma  ini  dapat  digunakan  untuk  mengklasifikasikan  data  ke  dalam  kategori atau kelas yang relevan berdasarkan pada probabilitasnya[[2]](http://ijcs.net/ijcs/index.php/ijcs/article/view/3227/178).
-      ![image](https://github.com/user-attachments/assets/ab462c68-6cf1-495f-b525-a3fa204e87ac)
+      ![NB](https://github.com/user-attachments/assets/4eebe329-3bd6-4782-af88-26ed688ca93c)
+
 
       source:[[3]](https://course-net.com/blog/metode-naive-bayes/8).
   * 2. K-Nearest Neighbors (KNN) memiliki  prinsip  kerja  dengan cara  mencari  jarak  paling  dekat  diantara  data  yang akan dievaluasi dengan tetangga yang ada pada data pelatihan,algoritma  ini  merupakan  salah  satu algoritma    yang    sederhana    untuk    memecahkan klasifikasi  serta  mampu  memberikan  hasil  yang signifikan dan kompetitif[[4]](https://www.journal.sekawan-org.id/index.php/jtim/article/view/178/130).
-      ![image](https://github.com/user-attachments/assets/e5dfde92-5be1-448b-a251-8705ffec9c0f)
+      ![Screenshot 2025-05-18 222458](https://github.com/user-attachments/assets/085249b4-54df-4410-8c4a-ff443a55ff20)
+
 
       source: [[5]](https://www.appliedaicourse.com/blog/knn-algorithm-in-machine-learning/)
 
@@ -204,7 +206,8 @@ Tahap evaluasi bertujuan untuk menilai seberapa efektif model Naive Bayes dan K-
 
   * **Confusion Matrix**
 
-![image](https://github.com/user-attachments/assets/3936d22a-930d-44cd-883e-a42240747337)
+![Screenshot 2025-05-18 235353](https://github.com/user-attachments/assets/b3c130e7-8d5c-4002-8249-16d9320b2657)
+
 
 #### Hasil  Analisa
    * Naive Bayes cukup baik dalam mengklasifikasikan risiko Low dan High.
@@ -223,7 +226,8 @@ Tahap evaluasi bertujuan untuk menilai seberapa efektif model Naive Bayes dan K-
 
   * **Confusion Matrix**
   
-![image](https://github.com/user-attachments/assets/fa5dbb7a-bc4f-46e1-8d11-8192606b75e3)
+![Screenshot 2025-05-18 235647](https://github.com/user-attachments/assets/38c23ff8-4a9e-4d2c-ab47-77b675b15fc7)
+
 
 #### Hasil  Analisa
    * KNN menunjukkan performa sempurna pada dataset ini.
